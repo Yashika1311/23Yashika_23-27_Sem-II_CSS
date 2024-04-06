@@ -1,0 +1,73 @@
+/* Define styles for headings */
+h1 {
+    font-family: Arial, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+/* Define styles for paragraphs */
+p {
+    font-family: Times New Roman, serif;
+    color: green;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 1150px;
+    padding: 0;
+    
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+   
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fffdfd;
+    font-weight: bold;
+    
+}
+
+nav {
+    background-color: #333;
+    height: 40px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center aligns the content horizontally */
+    align-items: center;
+    
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+

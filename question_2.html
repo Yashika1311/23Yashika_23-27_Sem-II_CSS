@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Shopping Cart</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .cart {
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+    }
+    
+    .cart table {
+        width: 100%;
+    }
+    
+    .cart table th,
+    .cart table td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .cart table th {
+        text-align: left;
+    }
+    
+    .cart table td {
+        text-align: center;
+    }
+    
+    .total {
+        margin-top: 20px;
+        text-align: right;
+    }
+    
+    .total span {
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Shopping Cart</h1>
+    
+    <div class="cart">
+        <table>
+            
+                <tr>
+                    <th>Product</th>
+                    <th>Image</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+           
+            <tbody>
+                <tr>
+                    <td>Rice</td>
+                    <td><img src="question2_rice.png" width="80px" height="120px"></td>
+                    <td>400Rs/kg</td>
+                    <td>5kg</td>
+                    <td>2000Rs</td>
+                </tr>
+                <tr>
+                    <td>Tea</td>
+                    <td><img src="question2_tea.png" width="80px" height="140px"></td>
+                    <td>550Rs/kg</td>
+                    <td>2kg</td>
+                    <td>1100</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td><img src="question2_sugar.png" width="80px" height="140px"></td>
+                    <td>55Rs/kg</td>
+                    <td>2kg</td>
+                    <td>110</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="total">
+        Total: <span>3210 Rs.</span>
+    </div>
+</div>
+
+</body>
+</html>
